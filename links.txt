@@ -1,4 +1,13 @@
 TYLER________________________________________________________________________________________
+https://developer.chrome.com/apps/app_architecture
+https://developer.chrome.com/extensions/overview (extension architecture)
+https://security.googleblog.com/2018/07/mitigating-spectre-with-site-isolation.html (site isolation security update)
+https://www.chromium.org/developers/design-documents/multi-process-architecture (more on multi-process)
+https://www.chromium.org/developers/design-documents/inter-process-communication (inter-process communication)
+https://www.chromium.org/blink (blink rendering system)
+https://www.chromium.org/developers/design-documents/displaying-a-web-page-in-chrome (webkit and displaying web pages)
+https://www.chromium.org/developers/design-documents/displaying-a-web-page-in-chrome (plugin architecture)
+
 
 JESS_________________________________________________________________________________________
 
