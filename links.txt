@@ -1,11 +1,35 @@
-TYLER
+TYLER________________________________________________________________________________________
 
-JESS
+JESS_________________________________________________________________________________________
 
-ALI
+ALI__________________________________________________________________________________________
 
-LIAM
+Wikipedia
+Link: https://en.wikipedia.org/wiki/Google_Chrome
+Caption: Overview and history of the entire Chrome application
 
-ANDREA
 
-BRENDAN
+Chromium Project:
+Link: https://www.chromium.org/developers/design-documents/multi-process-architecture
+Caption: Chrome's Architecture and how the multiple rendering processes work in parrellel 
+
+
+Chrome Architecture YouTube Video:
+Link: https://www.youtube.com/watch?v=A0Z0ybTCHKs
+Caption: A real member of the Chrome team explaining the architecture in a Google meeting
+
+
+Blink HTML Engine:
+Link: https://en.wikipedia.org/wiki/Blink_(web_engine)
+Caption: Read about the HTML Rendering engine that is used by Chrome
+
+
+Sandboxing:
+Link: https://en.wikipedia.org/wiki/Sandbox_(software_development)
+Caption: Read about the testing development model used for Chrome known as 'Sandboxing'
+
+LIAM_________________________________________________________________________________________
+
+ANDREA_________________________________________________________________________________________
+
+BRENDAN_________________________________________________________________________________________
