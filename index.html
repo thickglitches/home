@@ -42,22 +42,23 @@
     <div class="container">
       <!-- Page Heading -->
       <h1 class="my-4">Chrome Architecture Resources</h1>
-      <h5>Learn the architecture of the most used brower in the world.</h5>
-      <br/>
 
+      <br/>
+      <h3>Introduction & History</h3>
+      <br/>
       <!-- pictures not 100% important for links, but might make the site look better-->
       <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="./images/google_chrome_ram.jpg" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Multi-Process Architecture Consumption</a>
-              </h4>
-              <p class="card-text">Why does Google Chrome consume so many OS processes in order to run?<a href="https://blog.chromium.org/2008/09/multi-process-architecture.html" target="_blank">Find out here.</a></p>
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="images/fancy-chrome.png" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Chrome Browser Overview</a>
+                </h4>
+                <p class="card-text">History, features, speed, security, and challenges of Chrome. Read <a href="https://computer.howstuffworks.com/google-chrome-os.htm" target="_blank">here for the overview.</a></p>
+              </div>
             </div>
           </div>
-        </div>
         <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
           <div class="card h-100">
             <a href="#"><img class="card-img-top" src="./images/chrome_history.png" alt=""></a>
@@ -71,23 +72,51 @@
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="./images/chrome-extensions.png" alt=""></a>
+            <a href="#"><img class="card-img-top" src="images/intro-chrome.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Chrome Extension Architecture</a>
+                <a href="#">History, and a Look at V8</a>
               </h4>
-              <p class="card-text">How is chrome able to faciliate apps like U-Block and Honey? <a href="https://developer.chrome.com/extensions/overview" target="_blank">Read here.</a></p>
+              <p class="card-text">The origins of Chrome and a look at the V8 JavaScript engine.<a href="https://www.niallkennedy.com/blog/2008/09/google-chrome.html" target="_blank"> Learn more.</a></p>
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="./images/chrome-team.png" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Google Team Talking About Chrome</a>
+                </h4>
+                <p class="card-text">A member of the Chrome team explains the architecture of chrome in a real meeting.<a href="https://www.youtube.com/watch?v=A0Z0ybTCHKs" target="_blank"> Watch here.</a></p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <br/>
+      <br/>
+      <h3>Multi-Processor Architecture</h3>
+      <br/>
+      <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="images/intro-multi-process.png" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Intro to Multi-Process Architecture</a>
+                </h4>
+                <p class="card-text">Introductary technical description of the Chrome software architecture, the browser process, the render process and the communication process.<a href="https://medium.com/@zicodeng/explore-the-magic-behind-google-chrome-c3563dbd2739" target="_blank"> Learn more here.</a></p>
+              </div>
+            </div>
+          </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="images/spectre.jpeg" alt=""></a>
+            <a href="#"><img class="card-img-top" src="./images/google_chrome_ram.jpg" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Protecting against Spectre Vulnerabilites</a>
+                <a href="#">Multi-Process Architecture Consumption</a>
               </h4>
-              <p class="card-text">After the spectre vulnerabilities were discovered, chrome had to implement new security features. Read how <a href=https://security.googleblog.com/2018/07/mitigating-spectre-with-site-isolation.html target="_blank"> site isolation helps protect your private data.</a></p>
+              <p class="card-text">Why does Google Chrome consume so many OS processes in order to run?<a href="https://blog.chromium.org/2008/09/multi-process-architecture.html" target="_blank">Find out here.</a></p>
             </div>
           </div>
         </div>
@@ -113,6 +142,84 @@
             </div>
           </div>
         </div>
+      </div>
+      <br/>
+      <br/>
+      <h3>Security</h3>
+      <br/>
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="images/spectre.jpeg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Protecting against Spectre Vulnerabilites</a>
+              </h4>
+              <p class="card-text">After the spectre vulnerabilities were discovered, chrome had to implement new security features. Read how <a href=https://security.googleblog.com/2018/07/mitigating-spectre-with-site-isolation.html target="_blank"> site isolation helps protect your private data.</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="images/safe-chrome.jpeg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Security of Chromium</a>
+              </h4>
+              <p class="card-text">Security of Chromium closely mimics that of Google Chrome (as it is just the open-source version). Read about it's threat model, architecture, sandbox, and browser kernel interface that are used to evaluate the software's security<a href="https://www.hbs.edu/faculty/Publication%20Files/18-031_78569c7d-fc0c-4e1e-bd79-143bc507112a.pdf" target="_blank"> here.</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="./images/secure-browser.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Browser Security: Lessons from Google Chrome</a>
+              </h4>
+              <p class="card-text">This PDF describes Google Chrome’s security architecture, sandboxing websites, and design choices to minimize exploits.<a href="https://courses.cs.washington.edu/courses/cse484/14au/reading/browser-security-chrome.pdf" target="_blank"> Learn more.</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="images/security.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Coupling and Security Vulnerabilites</a>
+              </h4>
+              <p class="card-text">Coupling can be very dangerous in terms of keep a software secure. Chrome is a good example on how these correlate.<a href="https://www.hbs.edu/faculty/Publication%20Files/18-031_78569c7d-fc0c-4e1e-bd79-143bc507112a.pdf" target="_blank"> Read more about it here.</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="./images/chrome-decade-security.jpeg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">How Google Chrome Spent A Decade Making the Web More Secure</a>
+              </h4>
+              <p class="card-text">Learn about the safety features of Chrome and how the architectural decisions of the Chrome team have made the web safer.<a href="https://www.wired.com/story/chrome-decade-making-the-web-more-secure/" target="_blank"> Learn more.</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br/>
+      <br/>
+      <h3>Browser Engine & Other Additions</h3>
+      <br/>
+      <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="images/chrome-v8.jpeg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Chrome's V8 Javascript Engine</a>
+                </h4>
+                <p class="card-text">Detailed look at how the V8 engine interprets JavaScript into machine code that microprocessors can understand.<a href="https://medium.freecodecamp.org/understanding-the-core-of-nodejs-the-powerful-chrome-v8-engine-79e7eb8af964" target="_blank"> Learn more.</a></p>
+              </div>
+            </div>
+          </div>
         <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
           <div class="card h-100">
             <a href="#"><img class="card-img-top" src="images/blink.jpeg" alt=""></a>
@@ -137,94 +244,6 @@
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="images/fancy-chrome.png" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Chrome Browser Overview</a>
-              </h4>
-              <p class="card-text">History, features, speed, security, and challenges of Chrome. Read <a href="https://computer.howstuffworks.com/google-chrome-os.htm" target="_blank">here for the overview.</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="images/security.png" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Coupling and Security Vulnerabilites</a>
-              </h4>
-              <p class="card-text">Coupling can be very dangerous in terms of keep a software secure. Chrome is a good example on how these correlate.<a href="https://www.hbs.edu/faculty/Publication%20Files/18-031_78569c7d-fc0c-4e1e-bd79-143bc507112a.pdf" target="_blank"> Read more about it here.</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="images/safe-chrome.jpeg" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Security of Chromium</a>
-              </h4>
-              <p class="card-text">Security of Chromium closely mimics that of Google Chrome (as it is just the open-source version). Read about it's threat model, architecture, sandbox, and browser kernel interface that are used to evaluate the software's security<a href="https://www.hbs.edu/faculty/Publication%20Files/18-031_78569c7d-fc0c-4e1e-bd79-143bc507112a.pdf" target="_blank"> here.</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="images/intro-multi-process.png" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Intro to Multi-Process Architecture</a>
-              </h4>
-              <p class="card-text">Introductary technical description of the Chrome software architecture, the browser process, the render process and the communication process.<a href="https://medium.com/@zicodeng/explore-the-magic-behind-google-chrome-c3563dbd2739" target="_blank"> Learn more here.</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="images/intro-chrome.png" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">History, and a Look at V8</a>
-              </h4>
-              <p class="card-text">The origins of Chrome and a look at the V8 JavaScript engine.<a href="https://www.niallkennedy.com/blog/2008/09/google-chrome.html" target="_blank"> Learn more.</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="images/chrome-v8.jpeg" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Chrome's V8 Javascript Engine</a>
-              </h4>
-              <p class="card-text">Detailed look at how the V8 engine interprets JavaScript into machine code that microprocessors can understand.<a href="https://medium.freecodecamp.org/understanding-the-core-of-nodejs-the-powerful-chrome-v8-engine-79e7eb8af964" target="_blank"> Learn more.</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="./images/chrome-decade-security.jpeg" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">How Google Chrome Spent A Decade Making the Web More Secure</a>
-              </h4>
-              <p class="card-text">Learn about the safety features of Chrome and how the architectural decisions of the Chrome team have made the web safer.<a href="https://www.wired.com/story/chrome-decade-making-the-web-more-secure/" target="_blank"> Learn more.</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="./images/secure-browser.png" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Browser Security: Lessons from Google Chrome</a>
-              </h4>
-              <p class="card-text">This PDF describes Google Chrome’s security architecture, sandboxing websites, and design choices to minimize exploits.<a href="https://courses.cs.washington.edu/courses/cse484/14au/reading/browser-security-chrome.pdf" target="_blank"> Learn more.</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
             <a href="#"><img class="card-img-top" src="./images/source-code.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
@@ -234,6 +253,17 @@
             </div>
           </div>
         </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="./images/chrome-extensions.png" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Chrome Extension Architecture</a>
+                </h4>
+                <p class="card-text">How is chrome able to faciliate apps like U-Block and Honey? <a href="https://developer.chrome.com/extensions/overview" target="_blank">Read here.</a></p>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
     <!-- /.container -->
@@ -241,7 +271,6 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <!-- <p class="m-0 text-center text-white">Copyright &copy; Thick Glitches LLC 2018</p> -->
         <p class="m-0 text-center text-white">Tyler Mainguy, Liam Walsh, Andrea Perera-Ortega, Jess Dassa, Ali Lewis</p>
       </div>
       <!-- /.container -->

@@ -1,0 +1,11 @@
+{
+    "editor.minimap.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "eslint.enable": true,
+    "breadcrumbs.enabled": true,
+    "eslint.autoFixOnSave": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDelete": false,
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": false
+}
